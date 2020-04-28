@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Clean Lake Michigan</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="start">Start</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="chem">Chemicals of mutual concern (CMCs) are chemicals that is released to water, toxic and persistent. It includes:
+• Hexabromocyclododecane (HBCD)
+• Long-chain Perfluorinated Carboxylic Acids (LC-PFCAs)
+• Mercury
+• Perfluorooctanoic Acid (PFOA)
+• Perfluorooctane Sulfonate (PFOS)
+• Polybrominated Diphenyl Ethers (PBDEs)
+• Polychlorinated Biphenyls (PCBs)
+• Short-Chain Chlorinated Paraffins (SCCPs)
+</string>
+    <string name="chemAct">Industries in United States must report chemical release to water or recycled.</string>
+    <string name="phos">Nutrition is phosphorus concentration released to water. Excess nutrition will produce harmful algal boom.</string>
+    <string name="phosAct">Decrease phosphorus releases from cropland. Build treatment plants for wastewater. Reducing nutrient loads from combined sewer overflows.</string>
+    <string name="ballast">Discharges from Vessels that are harmful to water. It includes: • Oil and Hazardous Polluting Substances; • Garbage;  • Wastewater and Sewage • Biofouling;  • Antifouling Agents; and  • Ballast Water.</string>
+    <string name="habbitat">Native species and habitat are damaged due to many reason. Number of Lake Sturgeon has declined due to fishing.</string>
+    <string name="habbitatAct">Stocking programs using streamside hatcheries are reintroducing sturgeon in 4 other rivers (Whitefish, Cedar, Kewaunee and Milwaukee rivers), and supplementing wild populations in the Manistee and Kalamazoo rivers.</string>
+    <string name="Invasive">Aquatic invasive species (AIS) will damage water quality by competing with local species. Quagga mussels are invasive species in Great Lakes. They were introduced by ballast water from boats. They consume phytoplankton which is food source for zooplankton. They decrease native mussels’ population.</string>
+    <string name="InvasiveAct">Control number of invasive species by doing scientific research for each specific specie. Clean water in boats before entering water body to prevent release quagga mussels to water.</string>
+    <string name="act1">You need to find all pollution to act.</string>
+    <string name="ballastAct">Assess ballast tanks during vessel transits. Vessels that do not exchange their ballast water or flush their ballast tanks are required to either: retain the ballast water and residuals on board, treat the ballast water in an environmentally sound and approved manner, or return to sea to conduct a ballast water exchange. Vessels that are unable to exchange their ballast water or residuals, and which are required to retain them onboard, receive a verification exam during their outbound transit prior to exiting the Seaway.</string>
+    <string name="con">Congradulations!</string>
+    <string name="Donate">Clean Lake Michigan is a fictional organization for class BTW 250. This app is final project for this class and CS125 class.</string>
+    <string name="intro">Click to find pollution of the Lake.</string>
+    <string name="introa">Click to find solution for pollution.</string>
+</resources>

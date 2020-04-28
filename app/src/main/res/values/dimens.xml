@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="start_left">320dp</dimen>
+    <dimen name="start_down">100dp</dimen>
+</resources>
