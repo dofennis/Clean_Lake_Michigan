@@ -244,7 +244,8 @@
         android:id="@+id/shipp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/shipp" />
+        app:srcCompat="@drawable/shipp"
+        tools:visibility="invisible" />
 
     <ImageButton
         android:id="@+id/donate"

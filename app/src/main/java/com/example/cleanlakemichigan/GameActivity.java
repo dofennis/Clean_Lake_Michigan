@@ -41,7 +41,8 @@ public class GameActivity extends AppCompatActivity {
         final Button close = findViewById(R.id.close);
         final ImageButton donate = findViewById(R.id.donate);
         final TextView text = findViewById(R.id.text);
-        final ImageView chema = findViewById(R.id.chem)
+        final ImageView chema = findViewById(R.id.c);
+        final ImageView chemp = findViewById(R.id.)
         Button back = findViewById(R.id.back);
 
         String st = getString(R.string.intro);
