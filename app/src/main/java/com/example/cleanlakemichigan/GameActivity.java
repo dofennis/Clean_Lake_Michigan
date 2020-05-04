@@ -41,6 +41,7 @@ public class GameActivity extends AppCompatActivity {
         final Button close = findViewById(R.id.close);
         final ImageButton donate = findViewById(R.id.donate);
         final TextView text = findViewById(R.id.text);
+        final ImageView chema = findViewById(R.id.chem)
         Button back = findViewById(R.id.back);
 
         String st = getString(R.string.intro);
@@ -213,7 +214,7 @@ public class GameActivity extends AppCompatActivity {
                     Cship = 0;
                     Cfish = 0;
                     Cmussel = 0;
-                    Bact.setVisibility(View.INVISIBLE);
+                    Bact.setVisibility(View.GONE);
                     Iact.setVisibility(View.GONE);
                 }
             }

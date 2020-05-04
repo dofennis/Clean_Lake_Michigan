@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
         final ImageView about2 = findViewById(R.id.about2);
         final Button close = findViewById(R.id.close2);
 
+        about2.setVisibility(View.INVISIBLE);
+
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

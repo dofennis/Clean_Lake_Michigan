@@ -33,6 +33,13 @@
         app:srcCompat="@drawable/title"
         tools:visibility="visible" />
 
+    <ImageView
+        android:id="@+id/about2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/about2"
+        tools:visibility="invisible" />
+
     <ImageButton
         android:id="@+id/start"
         android:layout_width="wrap_content"
@@ -46,13 +53,6 @@
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/start"
         tools:visibility="invisible" />
-
-    <ImageView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/title2"
-        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button"
@@ -74,13 +74,6 @@
         app:srcCompat="@drawable/about"
         tools:visibility="invisible" />
 
-    <ImageView
-        android:id="@+id/about2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/about2"
-        tools:visibility="invisible" />
-
     <Button
         android:id="@+id/close2"
         android:layout_width="wrap_content"
@@ -90,5 +83,12 @@
         android:text="close"
         android:textColor="#FFFFFF"
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/title2"
+        tools:visibility="visible" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

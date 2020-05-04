@@ -17,6 +17,16 @@
         app:srcCompat="@drawable/game" />
 
     <ImageView
+        android:id="@+id/act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/act" />
+
+    <ImageView
         android:id="@+id/gameall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -82,15 +92,13 @@
         app:srcCompat="@drawable/mussel"
         tools:visibility="visible" />
 
-    <ImageView
-        android:id="@+id/act"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/act" />
+    <Button
+        android:id="@+id/Bact"
+        android:layout_width="188dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="550dp"
+        android:layout_marginTop="300dp"
+        android:background="@null" />
 
     <Button
         android:id="@+id/Bchemical"
@@ -139,14 +147,6 @@
         android:background="@null" />
 
     <Button
-        android:id="@+id/Bact"
-        android:layout_width="188dp"
-        android:layout_height="107dp"
-        android:layout_marginLeft="550dp"
-        android:layout_marginTop="300dp"
-        android:background="@null" />
-
-    <Button
         android:id="@+id/close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -176,6 +176,75 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chemp"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/chema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chema"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/fisha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fisha"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/fishp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fishp"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/mussela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mussela"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/musselp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/musselp"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/phosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/phosa"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/phosp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/phosp"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/shipa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shipa"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/shipp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shipp" />
 
     <ImageButton
         android:id="@+id/donate"

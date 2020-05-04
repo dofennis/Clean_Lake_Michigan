@@ -10,16 +10,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="chem">Chemicals of mutual concern (CMCs) are chemicals that is released to water, toxic and persistent. It includes:
-• Hexabromocyclododecane (HBCD)
-• Long-chain Perfluorinated Carboxylic Acids (LC-PFCAs)
-• Mercury
-• Perfluorooctanoic Acid (PFOA)
-• Perfluorooctane Sulfonate (PFOS)
-• Polybrominated Diphenyl Ethers (PBDEs)
-• Polychlorinated Biphenyls (PCBs)
-• Short-Chain Chlorinated Paraffins (SCCPs)
-</string>
+    <string name="chem">"Chemicals of mutual concern (CMCs) are chemicals that is released to water, toxic and persistent. It includes: • Hexabromocyclododecane (HBCD) • Long-chain Perfluorinated Carboxylic Acids (LC-PFCAs) • Mercury • Perfluorooctanoic Acid (PFOA) • Perfluorooctane Sulfonate (PFOS) • Polybrominated Diphenyl Ethers (PBDEs) • Polychlorinated Biphenyls (PCBs) • Short-Chain Chlorinated Paraffins (SCCPs) "</string>
     <string name="chemAct">Industries in United States must report chemical release to water or recycled.</string>
     <string name="phos">Nutrition is phosphorus concentration released to water. Excess nutrition will produce harmful algal boom.</string>
     <string name="phosAct">Decrease phosphorus releases from cropland. Build treatment plants for wastewater. Reducing nutrient loads from combined sewer overflows.</string>
