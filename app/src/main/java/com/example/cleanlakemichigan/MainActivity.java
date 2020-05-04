@@ -1,5 +1,8 @@
 package com.example.cleanlakemichigan;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -10,6 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewPropertyAnimator;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -40,6 +44,28 @@ public class MainActivity extends AppCompatActivity {
         final ImageButton about = findViewById(R.id.about);
         final ImageView about2 = findViewById(R.id.about2);
         final Button close = findViewById(R.id.close2);
+
+        final ViewPropertyAnimator titlea = title.animate().alpha(0f).setDuration(2000);
+        final ViewPropertyAnimator titleb = title.animate().alpha(1f).setDuration(2000);
+
+        title.setAlpha(0f);
+        /*
+        titlea.setListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                super.onAnimationEnd(animation);
+                titleb.start();
+            }
+        });
+        titlea.setListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                super.onAnimationEnd(animation);
+                titlea.start();
+            }
+        });
+        titlea.start();
+        */
 
         about2.setVisibility(View.INVISIBLE);
 
