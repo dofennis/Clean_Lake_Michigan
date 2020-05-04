@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
         final ImageButton start = findViewById(R.id.start);
         final Button button = findViewById(R.id.button);
         final ImageView title = findViewById(R.id.title);
+        final ImageButton about = findViewById(R.id.about);
+        final ImageView about2 = findViewById(R.id.about2);
+        final Button close = findViewById(R.id.close2);
 
         start.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +54,27 @@ public class MainActivity extends AppCompatActivity {
                 button.setVisibility(View.INVISIBLE);
                 title.setVisibility(View.INVISIBLE);
                 start.setVisibility(View.VISIBLE);
+                about.setVisibility(View.VISIBLE);
+            }
+        });
+
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                start.setVisibility(View.INVISIBLE);
+                about.setVisibility(View.INVISIBLE);
+                about2.setVisibility(View.VISIBLE);
+                close.setVisibility(View.VISIBLE);
+            }
+        });
+
+        close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                close.setVisibility(View.INVISIBLE);
+                about2.setVisibility(View.INVISIBLE);
+                start.setVisibility(View.VISIBLE);
+                about.setVisibility(View.VISIBLE);
             }
         });
 

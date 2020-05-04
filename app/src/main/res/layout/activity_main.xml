@@ -38,9 +38,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:adjustViewBounds="true"
         android:background="@null"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
+        android:maxWidth="271dp"
+        android:maxHeight="95dp"
+        android:scaleType="fitCenter"
         app:srcCompat="@drawable/start"
         tools:visibility="invisible" />
 
@@ -48,12 +51,44 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/title2" />
+        app:srcCompat="@drawable/title2"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@null" />
+
+    <ImageButton
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:maxWidth="244dp"
+        android:minHeight="95dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/about"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/about2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/about2"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/close2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:background="#C33C3C"
+        android:text="close"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
