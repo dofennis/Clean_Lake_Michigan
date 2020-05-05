@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         final ViewPropertyAnimator titlea = title.animate().alpha(0f).setDuration(2000);
         final ViewPropertyAnimator titleb = title.animate().alpha(1f).setDuration(2000);
-\=
+
         title.setAlpha(0f);
         /*
         titlea.setListener(new AnimatorListenerAdapter() {
